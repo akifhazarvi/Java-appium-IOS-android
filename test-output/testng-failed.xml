@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [viddigoSuite]">
+  <test name="LeftpanelTestcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+      <class name="com.learn.mobile.browser.Leftsidepanel">
+        <methods>
+          <include name="leftsidepanel"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.Leftsidepanel -->
+      <class name="com.learn.mobile.browser.testconfig">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.testconfig -->
+    </classes>
+  </test> <!-- LeftpanelTestcase(failed) -->
+  <test name="LeftpanelLivetvTestcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.LiveTVCategorypagesTest">
+        <methods>
+          <include name="livetvcategory"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.LiveTVCategorypagesTest -->
+      <class name="com.learn.mobile.browser.Leftpanellivetv">
+        <methods>
+          <include name="leftpanellivetv"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.Leftpanellivetv -->
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+    </classes>
+  </test> <!-- LeftpanelLivetvTestcase(failed) -->
+  <test name="LeftpanelVideoTestcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.videocategory">
+        <methods>
+          <include name="leftpanelvideo"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.videocategory -->
+      <class name="com.learn.mobile.browser.leftpanelvideo">
+        <methods>
+          <include name="leftpanelvideo"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.leftpanelvideo -->
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+    </classes>
+  </test> <!-- LeftpanelVideoTestcase(failed) -->
+  <test name="FilterTestcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.sortbyfiltertest">
+        <methods>
+          <include name="testSearchPage"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.sortbyfiltertest -->
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+      <class name="com.learn.mobile.browser.Filtertest">
+        <methods>
+          <include name="testSearchPage"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.Filtertest -->
+    </classes>
+  </test> <!-- FilterTestcase(failed) -->
+  <test name="TvGuide Testcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+      <class name="com.learn.mobile.browser.tvguide">
+        <methods>
+          <include name="testSearchPage"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.tvguide -->
+    </classes>
+  </test> <!-- TvGuide Testcase(failed) -->
+  <test name="Addremovefavoritestestcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+      <class name="com.learn.mobile.browser.AddRemoveFavoirtesTest">
+        <methods>
+          <include name="testSearchPage"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.AddRemoveFavoirtesTest -->
+    </classes>
+  </test> <!-- Addremovefavoritestestcase(failed) -->
+  <test name="Search Testcase(failed)">
+    <classes>
+      <class name="com.learn.mobile.browser.searchtest">
+        <methods>
+          <include name="testSearchPage"/>
+          <include name="beforeSuite"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.learn.mobile.browser.searchtest -->
+    </classes>
+  </test> <!-- Search Testcase(failed) -->
+</suite> <!-- Failed suite [viddigoSuite] -->

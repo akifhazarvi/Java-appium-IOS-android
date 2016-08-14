@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="viddigoSuite">
+    <test name="LeftpanelTestcase">
+    <classes>
+     
+      <class name="com.learn.mobile.browser.testconfig"/>
+      <class name="com.learn.mobile.browser.Leftsidepanel"/>
+      
+      </classes>
+  </test> <!-- Test -->
+   <test name="LeftpanelLivetvTestcase">
+    <classes>
+      <class name="com.learn.mobile.browser.Leftpanellivetv"/>
+      <class name="com.learn.mobile.browser.LiveTVCategorypagesTest"/>
+      </classes>
+  </test> 
+<test name="LeftpanelVideoTestcase">
+    <classes>
+      <class name="com.learn.mobile.browser.leftpanelvideo"/>
+      <class name="com.learn.mobile.browser.videocategory"/>
+      </classes>
+  </test>   
+   <test name="FilterTestcase">
+    <classes>
+      <class name="com.learn.mobile.browser.Filtertest"/>
+      <class name="com.learn.mobile.browser.sortbyfiltertest"/>
+      </classes>
+  </test>  
+   <test name="TvGuide Testcase">
+    <classes>
+      <class name="com.learn.mobile.browser.tvguide"/>
+    
+      </classes>
+  </test>
+   <test name="Addremovefavoritestestcase">
+    <classes>
+      <class name="com.learn.mobile.browser.AddRemoveFavoirtesTest"/>
+
+      </classes>
+      
+  </test>
+    <test name="Search Testcase">
+    <classes>
+      <class name="com.learn.mobile.browser.searchtest"/>
+    
+      </classes>
+  </test>
+ 
+</suite> <!-- Suite -->

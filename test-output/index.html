@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-viddigoSuite">
+              <span class="suite-name border-skipped">viddigoSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-viddigoSuite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-viddigoSuite">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-viddigoSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-viddigoSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-viddigoSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-viddigoSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-viddigoSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,  21 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-viddigoSuite" class="hide-methods skipped suite-viddigoSuite"> (hide)</a> <!-- hide-methods skipped suite-viddigoSuite -->
+                      <a href="#" panel-name="suite-viddigoSuite" class="show-methods skipped suite-viddigoSuite"> (show)</a> <!-- show-methods skipped suite-viddigoSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-viddigoSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Leftsidepanel" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.testconfig" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Leftpanellivetv" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.LiveTVCategorypagesTest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.videocategory" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.leftpanelvideo" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.sortbyfiltertest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Filtertest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.tvguide" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.AddRemoveFavoirtesTest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.searchtest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Leftpanellivetv" hash-for-method="leftpanellivetv">leftpanellivetv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.leftpanelvideo" hash-for-method="leftpanelvideo">leftpanelvideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.videocategory" hash-for-method="leftpanelvideo">leftpanelvideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Leftsidepanel" hash-for-method="leftsidepanel">leftsidepanel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.LiveTVCategorypagesTest" hash-for-method="livetvcategory">livetvcategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.Filtertest" hash-for-method="testSearchPage">testSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.sortbyfiltertest" hash-for-method="testSearchPage">testSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.tvguide" hash-for-method="testSearchPage">testSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.AddRemoveFavoirtesTest" hash-for-method="testSearchPage">testSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-viddigoSuite" title="com.learn.mobile.browser.searchtest" hash-for-method="testSearchPage">testSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-viddigoSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-viddigoSuite" class="panel viddigoSuite">
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.videocategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leftpanelvideo">
+                  </a> <!-- leftpanelvideo -->
+                  <span class="method-name">leftpanelvideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.leftpanelvideo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leftpanelvideo">
+                  </a> <!-- leftpanelvideo -->
+                  <span class="method-name">leftpanelvideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.sortbyfiltertest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPage">
+                  </a> <!-- testSearchPage -->
+                  <span class="method-name">testSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.LiveTVCategorypagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="livetvcategory">
+                  </a> <!-- livetvcategory -->
+                  <span class="method-name">livetvcategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.Leftpanellivetv</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leftpanellivetv">
+                  </a> <!-- leftpanellivetv -->
+                  <span class="method-name">leftpanellivetv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.searchtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPage">
+                  </a> <!-- testSearchPage -->
+                  <span class="method-name">testSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.tvguide</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPage">
+                  </a> <!-- testSearchPage -->
+                  <span class="method-name">testSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.Leftsidepanel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leftsidepanel">
+                  </a> <!-- leftsidepanel -->
+                  <span class="method-name">leftsidepanel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.AddRemoveFavoirtesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPage">
+                  </a> <!-- testSearchPage -->
+                  <span class="method-name">testSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.testconfig</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+          <div class="suite-viddigoSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.learn.mobile.browser.Filtertest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPage">
+                  </a> <!-- testSearchPage -->
+                  <span class="method-name">testSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-viddigoSuite-class-skipped -->
+        </div> <!-- panel viddigoSuite -->
+        <div panel-name="test-xml-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/akifhazarvi/Documents/workspace/testgoogleapp/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;viddigoSuite&quot;&gt;
+  &lt;test name=&quot;LeftpanelTestcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.testconfig&quot;/&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.Leftsidepanel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LeftpanelTestcase --&gt;
+  &lt;test name=&quot;LeftpanelLivetvTestcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.Leftpanellivetv&quot;/&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.LiveTVCategorypagesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LeftpanelLivetvTestcase --&gt;
+  &lt;test name=&quot;LeftpanelVideoTestcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.leftpanelvideo&quot;/&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.videocategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LeftpanelVideoTestcase --&gt;
+  &lt;test name=&quot;FilterTestcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.Filtertest&quot;/&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.sortbyfiltertest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FilterTestcase --&gt;
+  &lt;test name=&quot;TvGuide Testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.tvguide&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TvGuide Testcase --&gt;
+  &lt;test name=&quot;Addremovefavoritestestcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.AddRemoveFavoirtesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Addremovefavoritestestcase --&gt;
+  &lt;test name=&quot;Search Testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.learn.mobile.browser.searchtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Testcase --&gt;
+&lt;/suite&gt; &lt;!-- viddigoSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for viddigoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LeftpanelTestcase (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">LeftpanelLivetvTestcase (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">LeftpanelVideoTestcase (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FilterTestcase (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TvGuide Testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Addremovefavoritestestcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Testcase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for viddigoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for viddigoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_viddigoSuite');
+function tableData_viddigoSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'f')
+data.setCell(0, 2, 'com.learn.mobile.browser.videocategory')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'f')
+data.setCell(1, 2, 'com.learn.mobile.browser.Leftsidepanel')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'leftsidepanel')
+data.setCell(2, 2, 'com.learn.mobile.browser.Leftsidepanel')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'f')
+data.setCell(3, 2, 'com.learn.mobile.browser.testconfig')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'leftpanellivetv')
+data.setCell(4, 2, 'com.learn.mobile.browser.Leftpanellivetv')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'livetvcategory')
+data.setCell(5, 2, 'com.learn.mobile.browser.LiveTVCategorypagesTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'f')
+data.setCell(6, 2, 'com.learn.mobile.browser.Leftpanellivetv')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'f')
+data.setCell(7, 2, 'com.learn.mobile.browser.LiveTVCategorypagesTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'leftpanelvideo')
+data.setCell(8, 2, 'com.learn.mobile.browser.leftpanelvideo')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'leftpanelvideo')
+data.setCell(9, 2, 'com.learn.mobile.browser.videocategory')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'f')
+data.setCell(10, 2, 'com.learn.mobile.browser.leftpanelvideo')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'f')
+data.setCell(11, 2, 'com.learn.mobile.browser.sortbyfiltertest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSearchPage')
+data.setCell(12, 2, 'com.learn.mobile.browser.Filtertest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'f')
+data.setCell(13, 2, 'com.learn.mobile.browser.Filtertest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSearchPage')
+data.setCell(14, 2, 'com.learn.mobile.browser.sortbyfiltertest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSearchPage')
+data.setCell(15, 2, 'com.learn.mobile.browser.tvguide')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'f')
+data.setCell(16, 2, 'com.learn.mobile.browser.tvguide')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSearchPage')
+data.setCell(17, 2, 'com.learn.mobile.browser.AddRemoveFavoirtesTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'f')
+data.setCell(18, 2, 'com.learn.mobile.browser.AddRemoveFavoirtesTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'f')
+data.setCell(19, 2, 'com.learn.mobile.browser.searchtest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSearchPage')
+data.setCell(20, 2, 'com.learn.mobile.browser.searchtest')
+data.setCell(20, 3, 0);
+window.suiteTableData['viddigoSuite']= { tableData: data, tableDiv: 'times-div-viddigoSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-viddigoSuite">
+              </div> <!-- times-div-viddigoSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for viddigoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.learn.mobile.browser.videocategory</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.learn.mobile.browser.sortbyfiltertest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.learn.mobile.browser.LiveTVCategorypagesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.learn.mobile.browser.Leftsidepanel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-viddigoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.searchtest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.testconfig</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2599 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.Leftsidepanel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leftsidepanel</span>
+                <span class="method-start">2602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2604 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.Leftpanellivetv</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leftpanellivetv</span>
+                <span class="method-start">2681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2685 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.LiveTVCategorypagesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">livetvcategory</span>
+                <span class="method-start">2686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.leftpanelvideo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leftpanelvideo</span>
+                <span class="method-start">2697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2701 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.videocategory</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">leftpanelvideo</span>
+                <span class="method-start">2705 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.Filtertest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearchPage</span>
+                <span class="method-start">2714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.sortbyfiltertest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearchPage</span>
+                <span class="method-start">2717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2719 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.tvguide</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchPage</span>
+                <span class="method-start">2728 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.AddRemoveFavoirtesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearchPage</span>
+                <span class="method-start">2736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2737 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.learn.mobile.browser.searchtest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearchPage</span>
+                <span class="method-start">2745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">2746 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
