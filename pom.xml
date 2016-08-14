@@ -19,6 +19,7 @@
         <version>3.5.1</version>
         <configuration>
           <source>1.8</source>
+          <executabe>/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home</executabe>
           <target>1.8</target>
         </configuration>
       </plugin>
